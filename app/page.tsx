@@ -1,9 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Tabs } from '@radix-ui/react-tabs';
-import { Globe, FileText, CheckCircle2, ChevronRight, Lock, Clock, DollarSign, Mail, Phone, School } from 'lucide-react';
-
+import { Globe, FileText, CheckCircle2, ChevronRight, Lock, Clock, DollarSign } from 'lucide-react';
 export default function Home() {
   const [currentPage, setCurrentPage] = useState('landing');
   const [uploadedFiles, setUploadedFiles] = useState({
