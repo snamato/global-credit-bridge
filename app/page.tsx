@@ -36,6 +36,9 @@ export default function CreditTransferApp() {
     university: ''
   });
 
+  // TEMPORARY USE TO AVOID LINTING ERRORS
+  console.log(FileText, uploadedFiles, setUploadedFiles, contactDetails, setContactDetails);
+
   const LandingPage = () => (
     <div className="container mx-auto px-4 py-8 space-y-8">
       <div className="text-center space-y-6">
